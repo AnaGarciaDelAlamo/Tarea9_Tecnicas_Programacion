@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 import java.time.LocalDate;
 
 public class Bicicleta extends Ciclos {
@@ -13,8 +15,13 @@ public class Bicicleta extends Ciclos {
     }
 
     @Override
+    public String tipoCiclo() {
+        return "Ejercicio1.Bicicleta";
+    }
+
+    @Override
     public String toString() {
-        return "Bicicleta: " +
+        return "Ejercicio1.Bicicleta: " +
                 "\nNumero de Velocidades: " + numVelocidades +
                 "\nMarca: " + marca +
                 "\nModelo: " + modelo +

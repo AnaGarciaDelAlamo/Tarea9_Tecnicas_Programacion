@@ -6,7 +6,7 @@ Mi repositorio: https://github.com/AnaGarciaDelAlamo/Tarea9_Tecnicas_Programacio
 # 1. El alquiler de bicis
 El objetivo es crear un programa que permita a una empresa de alquiler de bicicletas, mostrar los modelos que se ofrecen en alquiler y los precios.
 
-Se pueden alquilar bicicletas, segways y giroscopios. Para todos, es necesario conocer su marca, modelo y fecha de compra. Las bicicletas están equipadas con un sistema de cambio de marchas. Algunas tienen más velocidades que otras. Los segways y los giroscopios tienen cierta autonomía en kilómetros. Debido a su manillar, el Segway requiere que su piloto tenga una altura mínima.
+Se pueden alquilar bicicletas, segways y giroscopios. Para todos, es necesario conocer su marca, modelo y fecha de compra. Las bicicletas están equipadas con un sistema de cambio de marchas. Algunas tienen más velocidades que otras. Los segways y los giroscopios tienen cierta autonomía en kilómetros. Debido a su manillar, el Ejercicio1.Segway requiere que su piloto tenga una altura mínima.
 
 Puede suponer que dispone de una clase LocalDate que permite gestionar la fecha de compra.
 
@@ -43,10 +43,10 @@ Estos son los ciclos que ofrecemos en alquiler:
 
 - Bicis Lapierre speed 400 (1 año) 27 velocidades                  4,90€/hora 
 - Bicis Btwin riverside 900 (0 años) 10 velocidades                4,90€/hora 
-- Giroscpio Segway Nine (0 años) 40 km de autonomía [1h50 min]     9,90€/hora 
-- Giroscopio Weebot Echo (1 año) 35 km de autonomía [1h60 min]     9,90€/hora 
+- Giroscpio Ejercicio1.Segway Nine (0 años) 40 km de autonomía [1h50 min]     9,90€/hora 
+- Ejercicio1.Giroscopio Weebot Echo (1 año) 35 km de autonomía [1h60 min]     9,90€/hora 
 - Segways Immotion v8 (0 años) 40 km de autonomía                 18,90€/hora 
-- Segways Segway Ninebot One E+ (0 años) 
+- Segways Ejercicio1.Segway Ninebot One E+ (0 años) 
   30 km de autonomía                                              18,90€/hora 
 ## 2. Velocidad media versión plurilingüe
 Requisitos previos: ejercicio 4 del capítulo El pseudocódigo

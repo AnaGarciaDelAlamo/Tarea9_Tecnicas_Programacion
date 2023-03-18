@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 import java.time.LocalDate;
 
 public class Segway extends Ciclos {
@@ -15,8 +17,13 @@ public class Segway extends Ciclos {
     }
 
     @Override
+    public String tipoCiclo() {
+        return "Ejercicio1.Segway";
+    }
+
+    @Override
     public String toString() {
-        return "Segway: " +
+        return "Ejercicio1.Segway: " +
                 "\nAutonomia: " + autonomia +
                 "\nAlturaMinima: " + alturaMinima +
                 "\nMarca: " + marca +
