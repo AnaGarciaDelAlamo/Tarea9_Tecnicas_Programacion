@@ -1,21 +1,19 @@
 package Ejercicio2;
 
-import javax.swing.*;
-
-public class TraduccionIngles implements Traduccion{
+public class TraduccionEspañol implements Traduccion{
     @Override
     public void introducirDistancia() {
-        JOptionPane.showInputDialog("Enter the distance traveled:");
+        System.out.println("Introduzca la distancia recorrida: ");
     }
 
     @Override
     public void introducirTiempo() {
-        JOptionPane.showInputDialog("Enter the time of travel:");
+        System.out.println("Introduzca el tiempo de viaje: ");
     }
 
     @Override
     public void inicioRespuesta() {
-        System.out.println("You have traveled at a speed of: ");
+        System.out.println("Ha viajado a una velocidad de: ");
     }
 
     @Override
