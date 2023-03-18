@@ -7,4 +7,17 @@ public class Giroscopio extends Ciclos {
         super(marca, modelo, fechaCompra);
         this.autonomia = autonomia;
     }
+
+    public double tarifaAlquiler(){
+        return 3.5;
+    }
+
+    @Override
+    public String toString() {
+        return "Giroscopio: " +
+                "\nAutonomia: " + autonomia +
+                "\nMarca='" + marca +
+                "\nModelo: " + modelo +
+                "\nFecha de Compra: " + fechaCompra;
+    }
 }
