@@ -1,5 +1,6 @@
 package Ejercicio1;
 
+import java.time.Duration;
 import java.time.LocalDate;
 
 public class Giroscopio extends Ciclos {
@@ -12,6 +13,12 @@ public class Giroscopio extends Ciclos {
 
     public double tarifaAlquiler(){
         return 3.5;
+    }
+
+    @Override
+    public double alquiler(Duration tiempoAlquiler) {
+        double precioAlquiler;
+         return precioAlquiler = 29.9 * tiempoAlquiler.toHours();
     }
 
     @Override

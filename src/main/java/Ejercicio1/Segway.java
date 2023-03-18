@@ -1,5 +1,6 @@
 package Ejercicio1;
 
+import java.time.Duration;
 import java.time.LocalDate;
 
 public class Segway extends Ciclos {
@@ -10,6 +11,12 @@ public class Segway extends Ciclos {
         super(marca, modelo, fechaCompra);
         this.autonomia = autonomia;
         this.alturaMinima = alturaMinima;
+    }
+
+    @Override
+    public double alquiler(Duration tiempoAlquiler) {
+        double precioAlquiler;
+        return precioAlquiler = 18.9 * tiempoAlquiler.toHours();
     }
 
     public double tarifaAlquiler(){

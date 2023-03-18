@@ -1,5 +1,6 @@
 package Ejercicio1;
 
+import java.time.Duration;
 import java.time.LocalDate;
 
 public class Bicicleta extends Ciclos {
@@ -12,6 +13,12 @@ public class Bicicleta extends Ciclos {
 
     public double tarifaAlquiler(){
         return 1.5;
+    }
+
+    @Override
+    public double alquiler(Duration tiempoAlquiler) {
+        double precioAlquiler;
+        return precioAlquiler = 4.9 * tiempoAlquiler.toHours();
     }
 
     @Override

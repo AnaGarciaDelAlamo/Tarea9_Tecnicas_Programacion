@@ -1,5 +1,6 @@
 package Ejercicio1;
 
+import java.time.Duration;
 import java.time.LocalDate;
 
 public abstract class Ciclos {
@@ -16,6 +17,7 @@ public abstract class Ciclos {
 
     public abstract double tarifaAlquiler();
     public abstract String tipoCiclo();
+    public abstract double alquiler(Duration tiempoAlquiler);
 
     public int edadCiclo(){
         return LocalDate.now().getYear() - fechaCompra.getYear();
