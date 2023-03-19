@@ -33,6 +33,9 @@ public class Catalogo {
         System.out.println(giro1.toString() + " Precio de alquiler: " + giro1.tarifaAlquiler() + " €/hora");
         System.out.println(giro2.toString() + " Precio de alquiler: " + giro2.tarifaAlquiler() + " €/hora");
 
+
+
+
         boolean salir = false;
         int opcion = sc.nextInt();
 
@@ -50,29 +53,29 @@ public class Catalogo {
                 System.out.println("Adiós");
                 return;
                 case 1:
-                    Duration duracion = new Duration.ofHours(4);
-                       bici1.alquiler(duracion);
+                    Duration duracion = Duration.ofHours(4);
+                    bici1.alquiler(duracion);
                 break;
                 case 2:
-                    Duration duracion2 = new Duration.ofHours(4);
+                    Duration duracion2 = Duration.ofHours(4);
                     bici2.alquiler(duracion2);
 
                     break;
                 case 3:
-                    Duration duracion3 = new Duration.ofHours(4);
+                    Duration duracion3 = Duration.ofHours(4);
                     giro1.alquiler(duracion3);
                     break;
 
                 case 4:
-                    Duration duracion4 = new Duration.ofHours(4);
+                    Duration duracion4 =  Duration.ofHours(4);
                     giro2.alquiler(duracion4);
                     break;
                 case 5:
-                    Duration duracion5 = new Duration.ofHours(4);
+                    Duration duracion5 = Duration.ofHours(4);
                     segway1.alquiler(duracion5);
                     break;
                 case 6:
-                    Duration duracion6 = new Duration.ofHours(4);
+                    Duration duracion6 = Duration.ofHours(4);
                     segway2.alquiler(duracion6);
                     break;
             }

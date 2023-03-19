@@ -14,9 +14,10 @@ public class Segway extends Ciclos {
     }
 
     @Override
-    public double alquiler(Duration tiempoAlquiler) {
-        double precioAlquiler;
-        return precioAlquiler = 18.9 * tiempoAlquiler.toHours();
+    public void alquiler(Duration tiempoAlquiler) {
+        int horas = (int) tiempoAlquiler.toHours();
+        double precioAlquiler = horas * tarifaAlquiler();
+        System.out.println("El precio del alquiler es: " + precioAlquiler);
     }
 
     public double tarifaAlquiler(){
